@@ -2,6 +2,7 @@
 # about: Assign users badges based on GitHub contributions
 # version: 0.1
 # authors: Sam Saffron
+# url: https://github.com/discourse/github_badges
 
 module ::GithubBadges
   def self.badge_grant!
