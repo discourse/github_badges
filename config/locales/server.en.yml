@@ -1,3 +1,5 @@
 en:
   site_settings:
     github_badges_repo: 'URL of the GitHub repo to scan for contributions'
+  github_badges:
+    not_supported: 'The <b>github_badges</b> plugin is no longer supported. Please migrate to the <b><a href="https://github.com/discourse/discourse-github">discourse-github</a></b> plugin, which supports the same functionality.'

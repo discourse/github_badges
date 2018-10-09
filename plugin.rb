@@ -72,6 +72,10 @@ module ::GithubBadges
 end
 
 after_initialize do
+  AdminDashboardData.add_problem_check do
+    I18n.t("github_badges.not_supported")
+  end
+
   module ::GithubBadges
     class UpdateJob < ::Jobs::Scheduled
       every 1.day
